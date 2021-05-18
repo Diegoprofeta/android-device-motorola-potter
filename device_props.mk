@@ -149,6 +149,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.nohdcp=1 \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0
+    
+# HW Keys
+PRODUCT_PROPERTY_OVERRIDES += \
+    qemu.hw.mainkeys=1
 
 # HWUI
 PRODUCT_PROPERTY_OVERRIDES += \
